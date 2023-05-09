@@ -1,0 +1,11 @@
+Git config --global user.name "bergsabbath"
+Git config --global user.email "berg@gmail.com"
+git config [user.name] OR [user.email]
+git status
+git add arquivo.txt
+git commit -m "descreva o modificado"
+git diff  [--name.only]
+git checkout  arquivo.txt
+git reset [--soft] [--mixed] [--hard] HEAD arquivo.txt 
+git remote -v
+
