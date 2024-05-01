@@ -8,4 +8,7 @@ git diff  [--name.only]
 git checkout  arquivo.txt
 git reset [--soft] [--mixed] [--hard] HEAD arquivo.txt 
 git remote -v
-
+git config --global init.defaultBranch main
+git config --global --list
+git config credencial.helper [cache] [store]
+git config --global --show-origin credential.helper
