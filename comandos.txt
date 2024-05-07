@@ -4,9 +4,12 @@ git config [user.name] OR [user.email]
 git status
 git add arquivo.txt
 git commit -m "descreva o modificado"
+git commit --amend -m "alterando a msg do ultimo commit"
+git commit --amend m "alterando a msg do ultimo commit"
 git diff  [--name.only]
 git checkout  arquivo.txt
-git reset [--soft] [--mixed] [--hard] HEAD arquivo.txt 
+git reset [--soft] [--mixed] [--hard] HEAD arquivo.txt ou hash
+git reflog
 git remote -v
 git config --global init.defaultBranch main
 git config --global --list
