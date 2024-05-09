@@ -2,6 +2,8 @@ Git config --global user.name "bergsabbath"
 Git config --global user.email "berg@gmail.com"
 git config [user.name] OR [user.email]
 git status
+git stash 
+git stach [pop] ou [aplly]
 git add arquivo.txt
 git commit -m "descreva o modificado"
 git commit --amend -m "alterando a msg do ultimo commit"
